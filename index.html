@@ -8,11 +8,20 @@
         <script src="http://code.angularjs.org/angular-1.0.0rc10.min.js"></script>
     </head>
     
-    <body>
-        <input type="text" ng-model='inputText'/>
-        
-        <div>
-            inputText : {{ inputText }}
+    <body ng-app="myApp">
+        <div ng-controller="testCtl">
+            <input type="text" ng-model='inputText'/>
+
+            <div>
+                inputText : {{ inputText }}
+            </div>
         </div>
     </body>
+    
+    <script>
+        var myApp = angular.module('myApp', []);
+        myApp.controller('testCtl', ['$scope', function ($scope) {
+            
+        }]);
+    </script>
 </html>
