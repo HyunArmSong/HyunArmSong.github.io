@@ -34,7 +34,7 @@
 
 	<script>
 		$(document).ready(function(){
-			$('content').css('height', 'calc(100% - ' + $('header').height() + 'px)');
+			$('content').css('height', 'calc(100% - ' + $('header').css('height') + ')');
 		});
 	</script>
 </html>
