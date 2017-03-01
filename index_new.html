@@ -7,6 +7,9 @@
         
         <link rel="stylesheet" type="text/css" href="./css/reset.css"/>
         <link rel="stylesheet" type="text/css" href="./css/mainStyle.css"/>
+
+		<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+		<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 	</head>
 
 	<body>
@@ -23,7 +26,15 @@
 		</header>
 
 		<content>
-            
+			<div>
+
+			</div>
 		</conhjent>
 	</body>
+
+	<script>
+		$(document).ready(function(){
+			$('content').css('height', 'calc(100% - ' + $('header').height() + 'px)');
+		});
+	</script>
 </html>
