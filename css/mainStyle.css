@@ -54,7 +54,24 @@ content {
 #todoDisplay > dl {
 	display: inline-block;
 	width: 260px;
+	padding: 3px;
 	margin: 0 5px;
 	border-radius: 5px;
-	background: #E2E4E6;
+	background: RGBA(226, 228, 230, 0.8);
+}
+#todoDisplay > dl > dt {
+	display: block;
+	width: 100%;
+	padding: 3px;
+	font-size: 18px;
+	text-align: center;
+}
+.btn_add_todo {
+	float: right;
+}
+.btn_add_todo::after {
+	content: '';
+}
+.btn_add_todo::before {
+	content: '';
 }
