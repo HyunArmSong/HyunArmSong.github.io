@@ -58,6 +58,7 @@ content {
 	margin: 0 5px;
 	border-radius: 5px;
 	background: RGBA(226, 228, 230, 0.8);
+	vertical-algin: top;
 }
 #todoDisplay > dl > dt {
 	display: block;
@@ -69,4 +70,20 @@ content {
 .btn_add_todo {
 	float: right;
 	font-size: 18px;
+}
+.list_block {
+	position: relative;
+	width: 100%;
+	overflow-y: scroll;
+}
+.list_block > dl {
+	width: 100%;
+	padding: 0 3px;
+}
+.list_block > dl > dd {
+	width: 100%;
+	padding: 3px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+	background: #FFF;
 }
