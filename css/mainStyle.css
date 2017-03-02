@@ -68,10 +68,5 @@ content {
 }
 .btn_add_todo {
 	float: right;
-}
-.btn_add_todo::after {
-	content: '';
-}
-.btn_add_todo::before {
-	content: '';
+	font-size: 18px;
 }
