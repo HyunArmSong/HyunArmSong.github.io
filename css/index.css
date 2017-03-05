@@ -1,3 +1,5 @@
+@charset 'utf-8';
+
 html, body, #wrap {
     height: 100%;
 }
@@ -12,6 +14,21 @@ header {
     padding: 5px;
     z-index: 10;
     box-shadow: 0 1px 1px rgba(0,0,0,.1);
+}
+#headerRight {
+	float:right;
+}
+#headerLeft {
+	float:left;
+}
+$headerCenter {
+	display: inline-block;
+	padding: 3px 5px 0 5px;
+	border: 1px solid RGBA(255, 255, 255, 0.1);
+	border-radius: 5px;
+	font-weight: 700;
+	background: RGBA(255, 255, 255, 0.1);
+	color: #FFF;
 }
 content {
     display: block;
