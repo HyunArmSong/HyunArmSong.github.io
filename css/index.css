@@ -3,12 +3,14 @@
 html, body, #wrap {
     height: 100%;
 }
+html {
+	background: #DD9B27;
+}
 #wrap {
     display: flex;
     -webkt-box-orient: vertical;
     -webkit-box-direction: normal;
     flex-direction: column;
-	background: #DD9B27;
 }
 header {
     overflow: hidden;
