@@ -105,7 +105,9 @@ content {
 	text-align: left;
 }
 .list_subject > a {
-
+	float:right;
+	font-size:18px;
+	font-weight: 900;
 }
 .list_content > dl {
 	padding: 8px 10px;
