@@ -13,6 +13,7 @@ html, body, #wrap {
 header {
     overflow: hidden;
     padding: 5px;
+	margin-bottom: 10px;
 	text-align: center;
 	background: RGBA(0, 0, 0, 0.15);
     z-index: 10;
@@ -87,8 +88,6 @@ content {
 }
 .list_content {
     -webkit-box-flex: 1;
-    -webkit-flex: 1 1 auto;
-    -ms-flex: 1 1 auto;
     flex: 1 1 auto;
     overflow-y: auto;
     overflow-x: hidden;

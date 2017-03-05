@@ -4,6 +4,8 @@
 *.sql
 *.sqlite
 *.swp
+*.swo
+*.un~
 
 # OS generated files #
 ######################
