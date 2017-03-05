@@ -1,4 +1,4 @@
-@charset 'utf-8';
+@charset "utf-8";
 
 html, body, #wrap {
     height: 100%;
@@ -8,10 +8,13 @@ html, body, #wrap {
     -webkt-box-orient: vertical;
     -webkit-box-direction: normal;
     flex-direction: column;
+	background: #DD9B27;
 }
 header {
     overflow: hidden;
     padding: 5px;
+	text-align: center;
+	background: RGBA(0, 0, 0, 0.15);
     z-index: 10;
     box-shadow: 0 1px 1px rgba(0,0,0,.1);
 }
