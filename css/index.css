@@ -99,10 +99,10 @@ content {
     min-height: 0;
 }
 .list_subject {
-	padding: 8px 10px;
+	padding: 8px 10px 4px 10px;
 	font-size: 18px;
 	font-weight: 900;
-	text-align: center;
+	text-align: left;
 }
 .list_content > dl {
 	padding: 8px 10px;
