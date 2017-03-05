@@ -1,0 +1,79 @@
+html, body, #wrap {
+    height: 100%;
+}
+#wrap {
+    display: flex;
+    -webkt-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+}
+header {
+    overflow: hidden;
+    padding: 5px;
+    z-index: 10;
+    box-shadow: 0 1px 1px rgba(0,0,0,.1);
+}
+content {
+    display: block;
+    -webkit-box-flex: 1;
+    flex-grow: 1;
+    position: relative;
+    overflow-y: auto;
+}
+#listWrap {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+.main_content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-right: 0;
+    transition: margin .1s ease-in;
+}
+.list_board {
+    position: absolute;
+    overflow-x: auto;
+    overflow-y: hidden;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    white-space: nowrap;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+.list_block {
+    width: 270px;
+    margin: 0 5px;
+    height: 100%;
+    box-sizing: border-box;
+    display: inline-block;
+    vertical-align: top;
+    white-space: nowrap;
+}
+.list {
+    background: #E2E4E6;
+    border-radius: 3px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    max-height: 100%;
+    position: relative;
+    white-space: normal;
+}
+.list_content {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 1 auto;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    overflow-y: auto;
+    overflow-x: hidden;
+    margin: 0 4px;
+    padding: 0 4px;
+    z-index: 1;
+    min-height: 0;
+}

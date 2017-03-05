@@ -1,6 +1,6 @@
-@charset "utf-8";
 
 body {
+@charset "utf-8";
 	background: #DD9B27;
 }
 
@@ -51,7 +51,7 @@ content {
 	right: 0;
 	bottom: 0;
 }
-#todoDisplay > dl {
+#todoDisplay > div > dl {
 	display: inline-block;
 	width: 260px;
 	padding: 3px;
@@ -60,7 +60,7 @@ content {
 	background: RGBA(226, 228, 230, 0.8);
 	vertical-align: top;
 }
-#todoDisplay > dl > dt {
+#todoDisplay > div > dl > dt {
 	display: block;
 	width: 100%;
 	padding: 3px;
@@ -76,14 +76,23 @@ content {
 	width: 100%;
 	overflow-y: scroll;
 }
-.list_block > dl {
+.list_block > ul {
 	width: 100%;
 	padding: 0 3px;
+    box-sizing: border-box;
 }
-.list_block > dl > dd {
+.list_block > ul > li {
 	width: 100%;
 	padding: 3px;
 	margin-bottom: 10px;
 	border-radius: 5px;
 	background: #FFF;
+    box-sizing: border-box;
+}
+.list_block > ul > li > dl > dt {
+    font-size: 20px;
+}
+.list_block > ul > li > dl > dd {
+    font-size: 14px;
+    color: #9C9C9C;
 }
