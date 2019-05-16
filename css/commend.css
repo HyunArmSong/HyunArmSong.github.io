@@ -1,0 +1,36 @@
+.comment_box > p {
+    display: inline-block;
+    vertical-align: bottom;
+    -webkit-background-size: 100% auto;
+    background-size: 100% auto;
+}
+
+.mouse_l {
+    width: 19px;
+    height: 24px;
+    background: url("http://game.capcom.com/manual/MHW_PC/img/steam/controller/asia/key-mouse_L.png") no-repeat;
+}
+
+.mouse_r {
+    width: 19px;
+    height: 24px;
+    background: url("http://game.capcom.com/manual/MHW_PC/img/steam/controller/asia/key-mouse_R.png") no-repeat;
+}
+
+.key_ctrl {
+    width: 47px;
+    height: 19px;
+    background: url("http://game.capcom.com/manual/MHW_PC/img/steam/controller/asia/key-Ctrl.png") no-repeat;
+}
+
+.key_wasd {
+    width: 61px;
+    height: 37px;
+    background: url("http://game.capcom.com/manual/MHW_PC/img/steam/controller/asia/key-WASD.png") no-repeat;
+}
+
+.key_space {
+    width: 47px;
+    height: 19px;
+    background: url("http://game.capcom.com/manual/MHW_PC/img/steam/controller/asia/key-Space.png") no-repeat;
+}
