@@ -68,7 +68,7 @@ body {
 }
 
 body, th, td, input, select, textarea, button {
-    font-size: 14px;
+    font-size: 1rem;
     line-height: 1.5;
     font-family: 'Malgun Gothic', '맑은 고딕', sans-serif;
     color: #333
@@ -93,6 +93,18 @@ address, caption, cite, code, dfn, em, var {
     box-sizing: border-box;
 }
 
+html {
+    font-size: 12px;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
 h1, h2 {
     text-align: center;
 }
@@ -109,8 +121,8 @@ section {
 
 section > h2 {
     border: 3px solid;
-    padding: 8px;
-    font-size: 25px;
+    padding: 0.3rem;
+    font-size: 2rem;
 }
 
 .chargeblade > b {
@@ -137,6 +149,11 @@ section > div > h3:before {
     content: '- ';
 }
 
+.content_box {
+    width: 96%;
+    margin: 0 2%;
+}
+
 .weapon_info_block {
     display: block;
 }
@@ -150,4 +167,32 @@ section > div > h3:before {
     float: left;
     width: 20%;
     margin-right: 15px;
+}
+
+div.weapon_ex > ol > li{
+    list-style: decimal inside;
+    font-size: 1.5rem;
+}
+
+div.weapon_ex > ol > li > ul > li {
+    margin-left: 1rem;
+    font-size: 1.3rem;
+}
+
+div.weapon_ex > ol > li > ul > li:before {
+    content: '- ';
+}
+
+div.weapon_ex > ol > li > ul > li > ul > li {
+    font-size: 1.1rem;
+    padding-left: 10px;
+}
+
+div.weapon_ex > ol > li > ul > li > ul > li:before {
+    content: '•';
+}
+
+.sub_info {
+    display: inline-block;
+    font-size: 1.1rem;
 }
