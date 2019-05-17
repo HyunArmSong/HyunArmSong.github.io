@@ -98,12 +98,6 @@ html {
     color: #333;
 }
 
-@media (max-width: 600px) {
-    html {
-        font-size: 10px;
-    }
-}
-
 h1 {
     font-size: 2rem;
 }
