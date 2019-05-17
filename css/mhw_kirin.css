@@ -189,6 +189,19 @@ div.weapon_ex > ol > li > ul > li > ul > li:before {
     content: '•';
 }
 
+b.sub_comment {
+    display: block;
+    clear: both;
+    font-weight: normal;
+    font-size: 1rem;
+    color: #666;
+    margin-left: 1.3rem;
+}
+b.sub_comment:before {
+    content: '*';
+    margin-right: 3px;
+}
+
 .sub_info {
     display: inline-block;
     font-size: 1.1rem;
