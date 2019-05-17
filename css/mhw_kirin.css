@@ -95,6 +95,7 @@ address, caption, cite, code, dfn, em, var {
 
 html {
     font-size: 12px;
+    color: #333;
 }
 
 h1 {
@@ -109,14 +110,38 @@ h1, h2 {
     text-align: center;
 }
 
+#category {
+    width: 90%;
+    margin: 30px auto 0;
+    overflow: hidden;
+}
+
+#category li {
+    float: left;
+    width: 19%;
+    margin: 2px 0.5%;
+    padding: 3px;
+    border: 1px solid #666;
+    border-radius: 5px;
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+}
+
+#category li:hover {
+    background: #666;
+    color: #ffffff;
+}
+
 #weapon {
     margin-top: 30px;
 }
 
 section {
+    display: none;
     width: 90%;
     margin: 0 auto;
-
 }
 
 section > h2 {
@@ -205,4 +230,9 @@ b.sub_comment:before {
 .sub_info {
     display: inline-block;
     font-size: 1.1rem;
+}
+
+
+.display_none {
+    display: none;
 }
