@@ -17,6 +17,12 @@
     background: url("//game.capcom.com/manual/MHW_PC/img/steam/controller/asia/key-mouse_R.png") no-repeat;
 }
 
+.mouse_lr {
+    width: 19px;
+    height: 24px;
+    background: url("./icon/key-mouse_LR.png") no-repeat;
+}
+
 .key_ctrl {
     width: 47px;
     height: 19px;
