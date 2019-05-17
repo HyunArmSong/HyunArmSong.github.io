@@ -119,6 +119,7 @@ h1, h2 {
 #category li {
     float: left;
     width: 19%;
+    min-width: 90px;
     margin: 2px 0.5%;
     padding: 3px;
     border: 1px solid #666;
